@@ -22,7 +22,7 @@ public class Movement : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void Update()
     {
-       if(view.IsMine){
+    if(view.IsMine){
       if(PlayerMoving){
         CalculateRotation();
         CalculatePositon();
